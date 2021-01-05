@@ -1,0 +1,14 @@
+{
+  "name": "env-bot",
+  "version": "1.0.0",
+  "description": ".env bot ",
+  "main": ".env",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spim, MILLION, Voltrex Master and Stargirl",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
