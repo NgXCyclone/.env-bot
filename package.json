@@ -4,11 +4,15 @@
   "description": ".env bot ",
   "main": ".env",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon .env"
   },
   "author": "Spim, MILLION, Voltrex Master and Stargirl",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "loggers": "github:million900o/loggers"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
