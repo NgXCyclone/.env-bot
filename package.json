@@ -1,18 +1,18 @@
 {
-  "name": "env-bot",
+  "name": "dotenv",
   "version": "1.0.0",
-  "description": ".env bot ",
+  "description": ".env bot",
   "main": ".env",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "loggers": "^0.0.4",
+    "nodemon": "^2.0.6",
+    "statcord.js": "^3.1.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "nodemon .env"
   },
-  "author": "Spim, MILLION, Voltrex Master and Stargirl",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^12.5.1",
-    "loggers": "github:million900o/loggers"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  }
+  "author": "Spim, Voltrex Master, MILLLION and Stargirl",
+  "license": "ISC"
 }
